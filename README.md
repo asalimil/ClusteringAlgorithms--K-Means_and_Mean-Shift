@@ -1,8 +1,11 @@
 # ClusteringAlgorithms--K-Means_and_Mean-Shift
 This repository briefly provides a comparison of two clustering algorithms, i.e. K-Means and Mean Shift, in clustering of 1000 sample data  with 2 features in make_classification dataset imported from scikit-learn library.  
 
-We first describe how to use clustering algorithms in scikit-learn. This includes an example of fitting the model and an example of visualizing the result.
-We need to install the library. You can install the scikit-learn library using the pip Python installer, as follows:
+In order to visualize the results, we need to have matplotlib installed. Please install it on your python environment by running the follwing script in your shell:
+
+$ pip install matplotlib
+
+We describe how to use clustering algorithms in scikit-learn. This includes an example of fitting the model and an example of visualizing the result using python codes. We need to install the library. You can install the scikit-learn library using the pip Python installer, as follows:
 
 $ sudo pip install scikit-learn
 
