@@ -8,7 +8,8 @@ $ sudo pip install scikit-learn
 
 Next, we need to confirm that the library is installed and you are using a modern version. We then run the following script to print the library version number:
 
-$ import sklearn
-$ print(sklearn.__version__)
+$ \text{import sklearn}
+
+$ \text{print(sklearn.__version__)}
 
 Running the example, you should see 0.22.1 version number or higher. The K-Means algorithm is implemented via the KMeans class and the main configuration to tune is the \textit{n\_clusters} hyper-parameter set to the estimated number of clusters in the data. The Mean Shift algorithm is implemented via the Mean Shift class and the main configuration to tune is the \textit{bandwidth} hyper-parameter.
