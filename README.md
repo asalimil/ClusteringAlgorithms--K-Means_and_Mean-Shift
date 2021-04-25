@@ -13,3 +13,5 @@ $ import sklearn
 $ print(sklearn.\____version\____)
 
 Running the example, you should see 0.22.1 version number or higher. The K-Means algorithm is implemented via the KMeans class and the main configuration to tune is the "n_clusters" hyper-parameter set to the estimated number of clusters in the data. The Mean Shift algorithm is implemented via the Mean Shift class and the main configuration to tune is the "bandwidth" hyper-parameter.
+
+The python scripts to implement K-Means and Mean Shift clustering algorithms can be found in this repository folders. 
